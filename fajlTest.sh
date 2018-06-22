@@ -23,6 +23,7 @@ cpu_min_frequency(){
 	__EOF__
 	return
 }
+#Тест за аргумент
 if [[ $1 == "" ]]; then
 	DELAY=2
 	while true; do
